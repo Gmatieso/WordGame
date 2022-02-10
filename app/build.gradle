@@ -42,6 +42,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    // Timber for Logging
+    def timber_version = "5.0.1"
+    implementation "com.jakewharton.timber:timber:$timber_version"
 
     // Navigation
     //implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0"
@@ -50,7 +53,6 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 
-    // Timber for Logging
-    implementation "com.jakewharton.timber:timber:$timber_version"
+
 
 }
