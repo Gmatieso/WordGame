@@ -11,7 +11,7 @@
         android:label="fragment_test1"
         tools:layout="@layout/fragment_test1" >
         <action
-            android:id="@+id/action_test1_to_test2"
+            android:id="@+id/navigateTotest2"
             app:destination="@id/test2" />
     </fragment>
     <fragment
@@ -20,7 +20,7 @@
         android:label="fragment_test2"
         tools:layout="@layout/fragment_test2" >
         <action
-            android:id="@+id/action_test2_to_test1"
+            android:id="@+id/navigateTotest1"
             app:destination="@id/test1" />
     </fragment>
 </navigation>
